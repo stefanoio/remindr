@@ -1,0 +1,21 @@
+{
+  "name": "remindr",
+  "version": "1.0.0",
+  "description": "Continue your reading where you left off.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanoio/remindr.git"
+  },
+  "author": "Stefano Peloso",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/stefanoio/remindr/issues"
+  },
+  "scripts": {
+    "build": "uglifyjs src/remindr.js -o dist/remindr.min.js -c -m"
+  },
+  "homepage": "https://github.com/stefanoio/remindr#readme",
+  "devDependencies": {
+    "uglify-js": "^2.7.0"
+  }
+}
